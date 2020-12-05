@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset='utf-8'>
+        <title>Biblioteca</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+        <body>
+            <header>
+                <section id="main">
+                <h1>Biblioteca</h1>
+                </section>
+            </header>
+                <section class="contenedor">
+                    <section id="articulo">
+                    <h2>¡Atrévete a descubrir esto!</h2>
+                    <p id="textoarticulo">
+                        Te damos la bienvenida al portal de la Biblioteca Virtual EPO No  que provee, comparte y difunde,  recursos informativos propios.
+                    </p>
+                    <img class="ilustracion" src="img/1.jpg" >
+                    </section>
+                        <form class="formulario" action="control.php" method="post">
+                        <h2>Inicio de Seccion</h2>
+                            <?php
+                            error_reporting(E_ALL ^ E_NOTICE); //PARA QUE NO SALGAN ERRORES
+                            if($_GET["error"]=="si"){
+                                echo"<span>Verifica tus datos</span>";
+                            }
+                            
+                            ?>
+                            
+                        <h4>Nombre</h4>
+                        <input type="text" name="nombre" value="" id="nombre">
+                        <h4>Password</h4>
+                        <input type="password" name="password" value="" id="password">
+                        <input id="enviar" type="submit" name="enviar" value="Enviar">
+                        </form>
+                </section>
+                        <section id="ctarjetas">
+                              <article class="tarjeta">
+                                <img src="img/5.jpg"/>
+                                <h3>Simmons Hall MIT</h3>
+                                <p class="descripcion">Las residencias para estudiantes Simmons Hall son parte del proyecto de expansión del Massachusetts Institute of Technology (MIT)</p>
+                              </article>
+                                  <article class="tarjeta">
+                                    <img src="img/4.jpg"  />
+                                    <h3>Habitat 67</h3>
+                                    <p class="descripcion"> Habitat 67, o simplemente Habitat, es un complejo de viviendas situado en Montreal, Canadá, diseñado por el arquitecto israelí–canadiense Moshe Safdie.
+                                    </p>
+                                  </article>
+                                      <article class="tarjeta">
+                                        <img src="img/6.jpg"/>
+                                        <h3>VM Houses - Ørestad</h3>
+                                        <p class="descripcion">VM Houses is a housing project consisting of two adjacent apartment buildings in Ørestad, Copenhagen, Denmark.</p>
+                                      </article>
+                        </section>
+                                <footer>
+                                  <h6 id="creditos">Una creación de los hubbers</h6>
+                                </footer>
+      </body>
+</html>

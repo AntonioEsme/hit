@@ -1,0 +1,146 @@
+html{
+  font-family:sans-serif;
+  font-size:16px;
+}
+header{
+  background-color:#003840/*#4B3621*/ ;
+  padding-left: .5rem;
+    padding-right: .5em;
+  padding-top: .5rem;
+  padding-bottom: 3px;
+  margin-bottom: 1rem;
+  color:#F7E98E;
+}
+h1{
+  font-size:2.4rem;
+}
+body{
+  margin:auto;
+  background-color: #ECF0F1/*color del body*/;
+}
+ul>li{
+  background-color: #3498DB;
+  list-style-type:none;
+  display:inline;
+  margin-left: -5px;
+  margin-bottom:-1rem;
+  padding:.3rem;
+  font-size: 1.2rem;
+  border-right: 3px;
+  border-style: solid;
+  border-color:black;
+  border-top:none;
+  border-bottom:none;
+  border-left:none;
+}
+
+.contenedor{
+  display: flex/*distribucion de la pagina*/;
+  flex-flow: row wrap/*acomodar la pagina*/;
+}
+
+#articulo{
+  background-color:#BC0D35/*#8B4513 color de fondo de articulo*/ ;
+  padding-left:3rem;/**/
+  padding-top:1rem;
+  padding-right:3rem;
+  padding-bottom:1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /*margin-top:1rem;*/
+  margin-bottom: 1rem;/*margen de separacion*/
+  flex:1 1 30%;/*cuanto espacio puede recucirse en ancho alto y cuanto va a tener de anchura */
+}
+img{
+  width:100%/*contenedor del 100%*/;
+}
+h4{
+  color:whitesmoke;
+  
+}
+h2{
+  color:#F7E98E;
+  font-size:2rem;/*tamaño de la fuente*/
+}
+#importar{
+    color:whitesmoke;
+  background-color:#A20D1E/*#8B4513 color de fondo de articulo*/ ;
+  padding-left:2rem;/**/
+  padding-top:1rem;
+  padding-right:2rem;
+  padding-bottom:1rem;/*espacios entre cada uno de los formularios*/
+  margin-right: 1rem;
+  /*margin-top:1rem;*/
+  margin-bottom: 1rem;/*margen de separacion*/
+  flex:1 1 40%;/*cuanto espacio puede recucirse en ancho alto y cuanto va a tener de anchura */
+}
+
+
+
+.tarjeta{
+  background-color: white /*color de fondo*/;
+  margin-left: 1rem;/*margen a la derecha*/
+  box-shadow: 0px 4px 7px 0px rgba(50, 50, 50, 0.35);/*estableciendo sombra a las tarjetas*/
+  padding-bottom: 1rem;/*separacion de tarjetas*/
+  margin-bottom: 1rem;/*separacion de tarjetas*/
+  flex:1 1 120px;/*cuanto espacio puede recucirse en ancho alto y cuanto va a tener de anchura */
+}
+.descripcion{
+  margin-left: 1rem;/*separacion*/
+}
+h3{
+  margin-left: 1rem;/*separacion*/
+}
+footer{
+  background-color: #3498DB;/*color */
+  margin-top: 1rem;/*margen pra separar de las tarjetas*/
+}
+#creditos{
+  font-size: 1rem;/*tamaño de letra*/
+  column-rule-color: white;/*color*/
+  padding-top: 1rem;/*solido*/
+  padding-left: 1rem;/**/
+  padding-bottom: 1rem;/**/
+}
+#ctarjetas{
+  display: flex;/**/
+  flex-flow:row-reverse wrap;/**/
+  margin-right: 1rem;/*margen a la derecha*/
+}
+#id,#titulo,#autor,#categoria,#ejemplares{
+  width: 100%;
+}
+#enviarfor{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Aharoni";
+  font-size: 20px;/*tamaño de letra*/
+  width: 100%;
+  padding: 15px;
+  color: #8E3557;
+}
+table {
+     margin:0 auto;
+   width: 50%;
+      border: 1px solid #000;   
+}
+   
+th, td {
+ padding: 10px 20px 10px 20px;
+      background-color:#FCFAE1;
+    
+}
+
+table {
+     margin:0 auto;
+    width: 100%;
+     flex-flow: row wrap/*acomodar la pagina*/;
+}
+   
+th, td {
+ padding: 10px 20px 10px 20px;
+      background-color:#FFF0A5;
+    
+}
+
+   
